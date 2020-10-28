@@ -114,3 +114,7 @@ p {
   font-size: 12px;
   margin-bottom: 0;
 }
+
+.footer span {
+  color: #ef4431;
+}
