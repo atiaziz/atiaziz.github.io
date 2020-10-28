@@ -92,6 +92,7 @@ p {
   border: 1px solid #ffc200;
   padding: 50px;
   font-family: Montserrat;
+  text-transform: lowercase;
 }
 
 .portfolio:hover {
