@@ -1,0 +1,117 @@
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lora/v16/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkq0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+html, body {
+    font-family: Lora, Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+
+ul {
+  text-align: right;
+  text-transform: lowercase;
+}
+
+p {
+  font-family: Montserrat;
+}
+
+/* Header Section */
+
+.header {
+  padding: 30px 0px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+  font-family: Montserrat;
+}
+
+.header li a {
+  color: #333;
+  margin: 10px;
+  border: 0px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.header li a:hover {
+  background: #ffc200;
+  border: 1px solid white;
+  color: white;
+}
+
+/*Jumbotron Section*/
+.jumbotron {
+  background-color: #fff
+  margin-left: 50px;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.jumbotron h2 span {
+  color: #ffc200;
+}
+
+.jumbotron p {
+  text-shadow: 0 0;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 70px;
+}
+
+
+/*Body Section*/
+
+.portfolio {
+  display: inline-block;
+  margin: 50px 0px 0px 0px;
+  border: 1px solid #ffc200;
+  padding: 50px;
+  font-family: Montserrat;
+}
+
+.portfolio:hover {
+  background-color: #ffc200; 
+  color: #FFF;
+}
+
+
+/*Footer Section*/
+
+.footer {
+  padding: 60px 0px;
+  text-align: left;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+.footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
