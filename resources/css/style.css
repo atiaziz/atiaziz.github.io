@@ -56,7 +56,7 @@ p {
 }
 
 .header li a:hover {
-  background: #ffc200;
+  background: #2960ad;
   border: 1px solid white;
   color: white;
 }
@@ -73,7 +73,7 @@ p {
 }
 
 .jumbotron h2 span {
-  color: #ffc200;
+  color: #ef4431;
 }
 
 .jumbotron p {
@@ -83,23 +83,21 @@ p {
   margin-bottom: 70px;
 }
 
-
 /*Body Section*/
 
 .portfolio {
   display: inline-block;
   margin: 50px 0px 0px 0px;
-  border: 1px solid #ffc200;
+  border: 1px solid #ef4431;
   padding: 50px;
   font-family: Montserrat;
   text-transform: lowercase;
 }
 
 .portfolio:hover {
-  background-color: #ffc200; 
-  color: #FFF;
+  background-color: #ef4431; 
+  color: #FFF !important;
 }
-
 
 /*Footer Section*/
 
