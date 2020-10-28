@@ -95,7 +95,8 @@ p {
 }
 
 .portfolio:hover {
-  background-color: #ef4431; 
+  background-color: #2960ad; 
+  border: 1px solid #2960ad;
   color: #FFF !important;
 }
 
