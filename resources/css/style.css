@@ -101,6 +101,11 @@ nav li a:hover {
   color: #FFF !important;
 }
 
+.portfolio a {
+  text-decoration: none;
+  color: #333;
+}
+
 /*Footer Section*/
 
 .footer {
