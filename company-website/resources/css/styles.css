@@ -23,7 +23,7 @@ header {
     padding: 15px 0px;
     height: 70px;
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
 }
 
 header img  {
@@ -43,7 +43,7 @@ nav {
     border-top: 1px solid rgb(139,139,139);
     padding: 5px 0;
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
 }
 
 nav ul li {
@@ -64,13 +64,13 @@ main {
 }
 
 .hero {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .hero-header {
     padding: 50px 35px;
-    width: 450px;
+    width: 40%;
     text-align: left;
     color: white;
 }
